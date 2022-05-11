@@ -1,0 +1,523 @@
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none; color: #1d1d1f;}
+body{
+    font-family: 'Nunito', 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #333;
+    min-width: 1320px;
+}
+/* 헤더 */
+#header{
+    background-color: #2c3238;
+    width: 100%;
+    overflow: hidden;
+}
+.header_inner{
+    width: 1320px;
+    margin: auto;
+}
+.logo{
+    float: left;
+    padding: 20px 0;
+}
+.nav{
+    float: left;
+    text-align: center;
+    margin-left: 180px;
+}
+.nav li{
+    float: left;
+    padding: 40px 50px;
+    
+}
+.nav li a{
+    color: #fff;
+    font-weight: bold;
+}
+.nav li a:hover{
+    color: #d97777;
+}
+.sitemap{
+    float: right;
+}
+.sitemap li{float: left;
+padding: 40px 15px;}
+
+/* main */
+#main{
+    background: url(../sub/images2/blackpinkmain.png) no-repeat center top;
+    background-size: cover;
+    
+   
+}
+.main_inner{
+    width: 1320px;
+    margin: auto;
+    height: 805px;
+    position: relative;
+}
+.name{
+    position: absolute;
+    bottom: -34px;
+    left: 0;
+    color: #fff;
+    width: 1320px;
+   
+}
+.name h2{
+    font-size: 40px;
+    position: absolute;
+    bottom: 80px;
+    left: 0;
+}
+.name h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 75px;
+    margin-bottom: 20px;
+}
+
+.main_text{
+    width: 1320px;
+    margin: auto;
+    height: 40px;
+    position: absolute;
+    bottom: -80px;
+   
+}
+.main_text p{
+    font-size: 16px;
+    color: #fff;
+    float: left;
+}
+.main_text span a{
+    color: #fff;
+    font-size: 14px;
+    float: right;
+}
+.btn{
+    position: absolute;
+    bottom: -115px;
+}
+.btn li{
+    display: inline-block;
+    padding-right: 10px;
+}
+.btn p a{
+    font-size: 18px;
+    color: #d97777;
+    border: #d97777 2px solid;
+    padding: 7px 20px;
+    display: inline-block;
+    border-radius: 30px;
+}
+.btn p a:hover{
+    background-color: #d97777;
+    color: #fff;
+}
+
+/* playlist */
+#playlist{
+    background-color: #2c3238;
+    padding-top: 155px;
+}
+.playlist_inner{
+    width: 1320px;
+    margin: auto;
+    height: 500px;
+    
+    
+}
+.playlist_title h3{
+    font-size: 40px;
+    padding: 50px 0;
+    color: #fff;
+    font-family: "Noto Sans KR";
+}
+
+.charts_album{
+    margin: 20px 0;
+    width: 100%;
+    height: 100px;
+}
+.charts_album2{
+    margin: 20px 0;
+    width: 100%;
+    clear: both;
+}
+.n h4{padding-top: 12px;}
+.w{
+    display: flex;
+    align-items: center;
+    float: left;
+   box-sizing: border-box;
+   width: 25%;
+}
+.img{
+    margin-right: 20px;
+}
+.type a{
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    
+}
+.arti a{
+    box-sizing: border-box;
+    color: #cccccc;
+}
+
+/* 앨범 */
+#album{
+    background-color: #2c3238;
+    background: url(../sub/images2/bklogo.png) no-repeat top 6% center #2c3238;
+   
+}
+.album_inner{
+    width: 1320px;
+    margin: auto;
+    height: 500px;
+}
+.album_inner h3{
+    font-size: 40px;
+    color: #fff;
+    font-family: "Not0 Sans KR";
+}
+/*  */
+.album_inner ul{
+    margin-top: 65px;
+}
+.album_inner li{
+    float: left;
+    padding-right: 22px;
+    position: relative;
+}
+.album_inner li:nth-child(6){
+    padding-right: 0;
+}
+.album_inner p a{
+    font-size: 14px;
+    color: #f9f9f9;
+    font-family: "Noto Sans KR";
+
+}
+span{
+    font-size: 14px;
+    color: #cccccc;
+    font-family: "Noto Sans KR";
+}
+/* 제이쿼리 */
+
+.swiper {
+    width: 100%;
+    height: 70%;
+  }
+
+  .swiper-slide {
+    font-size: 18px;
+
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    object-fit: cover;
+  }
+
+/* 호버 */
+ .inner ul li{
+    position: relative;
+}
+.ab .aimg img{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+.btn_play p{
+    position: absolute;
+    top: 155px;
+    left: 2px;
+    background-color: rgba(37, 37, 37, 0.781);
+    border-radius: 50px;
+    padding: 5px;
+    margin: 8px;
+    width: 23px;
+    height: 23px;
+    opacity: 0;
+}
+.btn_play img{
+    position: absolute;
+    left: 12px;
+    top: 9px;
+
+}
+.btn_play p:hover{
+    background-color: #d97777;
+}
+.ab:hover .btn_play p{
+    opacity: 1;
+    transform: translateY(-5px);
+}
+/* 아티스트 */
+#artist{
+    background-color: #2c3238;
+}
+.artist_inner{
+    width: 1320px;
+    height: 600px;
+    margin: auto;
+    text-align: center;
+}
+.artist_inner h3{
+    padding: 80px 0; 
+    font-size: 40px;
+    color: #fff;
+}
+.artistimg {
+    width: 325px;
+    box-sizing: border-box;
+    display: inline-block;
+    
+}
+small{
+    color: #cccccc;
+}
+.artistimg a{
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* 비디오 */
+#vedio{
+    background:url(../sub/images2/videobg.png) no-repeat
+    top 15% center;
+}
+.vedio_inner{
+    width: 1320px;
+    height: 740px;
+    margin: auto;
+    text-align: center;
+}
+.vedio_menu li{
+    display: inline-block;
+    padding: 100px 40px 0 0;
+}
+.vedio_menu li a{
+    font-size: 20px;
+color: #8f8f8f;
+font-weight: 700;
+}
+.vedio_menu li a:hover{
+    color: #333;
+}
+.vedio_link{
+    margin: 100px 0;
+    text-align: left;
+}
+.vedio_link2{
+    text-align: right;
+}
+.mp4{
+    margin-left: 60px;
+
+}
+
+/* 게시판 */
+#board{
+  background-color: #2c3238;
+}
+.board_inner{
+    width: 1320px;
+    margin: auto;
+    height: 735px;
+    background: url(../sub/images2/news_bg.png) no-repeat right 425px bottom 40px;
+    display: flex;
+}
+.board_title h3{
+    font-size: 40px;
+    color: #fff;
+    padding-top: 90px ;
+    float: left;
+    margin-right: 50px;
+
+}
+.tit2 h3{
+    text-align: center;
+    color: #ffffff;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.board_title{
+    height: 170px;
+}
+.board_title  ul{
+   padding-top: 100px;
+}
+.board_title li{
+float: left;
+}
+.board_title li a:hover{
+    color:#e8e9ed;
+}
+.board_title li a{
+  font-size: 20px;
+  padding-right: 30px;
+   color: #000000;
+}
+.box1{
+    width: 70%;
+}
+.box2{
+    width: 30%;
+    margin-top: 95px;
+}
+.commnication{
+    width: 317px;
+    height: 420px;
+    background-color: #fbfbfb;
+    border-radius: 20px;
+    vertical-align: middle;
+    padding: 10px;
+    display: inline-block;
+    margin: 20px;
+    box-shadow:  5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.News1{
+   padding-bottom: 20px;
+    height: 50px;
+}
+.News1 p{
+    float: left;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.News1 p span{
+    font-size: 14px;
+    font-weight: 400;
+}
+.News2{
+   text-align: center;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.commnication2{
+    width: 317px;
+    height: 420px;
+    background-color: #fbfbfb;
+    border-radius: 20px;
+    vertical-align: middle;
+    padding: 10px;
+    display: inline-block;
+    margin: 20px;
+    box-shadow:  5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.new_txt1{
+    padding-left: 15px;
+    font-size: 14px;
+    line-height: 44px;
+}
+.new_txt{
+    padding-left: 15px;
+    font-size: 14px;
+    height: 85px;
+    
+}
+.new_img img{
+    width: 91%;
+    margin: 15px;
+}
+.new_img{
+
+   vertical-align: middle;
+}
+.like{
+    vertical-align: middle;
+    padding-left: 15px;
+    font-size: 14px;
+}
+.like li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.like img{
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.more{
+    text-align: center;
+    padding-bottom: 45px;
+}
+.more a{
+    border-bottom: #d97777 2px solid;
+    color: #fbfbfb;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+/* footer */
+#footer{
+    background-color: #f9f9f9;
+}
+.footer_inner{
+    width: 1320px;
+    height: 200px;
+    margin: auto;
+    padding-top: 50px;
+}
+.footer_logo{
+    float: left;
+    padding-right: 57px;
+}
+.footer_inner li{
+    float: left;
+}
+.footer_inner li a{
+    padding-right: 40px;
+    font-size: 14px;
+}
+.footer_inner p{
+    color: #161d2e;
+    font-size: 13px;
+    clear: both;
+    padding-left: 130px;
+}
+.f_link{
+    float: left;
+}
+.f_link li{
+    float: left;
+   padding: 10px 10px 30px 0;
+}
+.f_link li a{
+    color: #161d2e;
+    font-weight: bold;
+}
+
+.sns{
+    float: right;
+}
+.sns li{
+    float: left;
+    padding-left: 10px;
+    opacity: 0.7;
+}
+.sns li:hover{
+    opacity: 1;
+}

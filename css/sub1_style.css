@@ -1,0 +1,406 @@
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none; color: #1d1d1f;}
+body{
+    font-family: 'Nunito', 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #333;
+    min-width: 1320px;
+}
+/* 헤더 */
+#header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+}
+.header_inner{
+    width: 1320px;
+    margin: auto;
+}
+.logo{
+    float: left;
+    padding: 20px 0;
+}
+.nav{
+    float: left;
+    text-align: center;
+    margin-left: 180px;
+}
+.nav li{
+    float: left;
+    padding: 40px 50px;
+    
+}
+.nav li a{
+    color: #fff;
+    font-weight: bold;
+}
+.nav li a:hover{
+    color: #d97777;
+}
+.sitemap{
+    float: right;
+}
+.sitemap li{float: left;
+padding: 40px 15px;}
+
+/* 메인영상배너 */
+#main{
+    background: url(../images/seri.jpg) no-repeat top center;
+    height: 900px;
+}
+
+/* 차트 */
+#charts{
+    background-color: #fbfbfb;
+}
+.charts_inner{
+    width: 1320px;
+    height: 1050px;
+    margin: auto;
+}
+.sub h3{
+    font-size: 40px;
+    padding-top: 100px;
+    font-family: "Noto Sans KR";
+    float: left;
+    padding-right: 60px;
+    
+    
+}
+.sub{
+    width: 800px;
+    height: 180px;
+}
+.nav2 li{
+    font-size: 16px;
+    font-weight: 600;
+    color: #969696;
+    display: inline-block;
+    padding-right: 25px;
+    padding-top: 105px;
+}
+.nav2 li:hover{
+    color: #222222;
+    font-weight: 600;
+}
+.charts_txt {
+    width: 55%;
+    height: 720px;
+    display: inline-block;
+}
+.charts_txt ul{
+
+    padding-bottom: 10px;
+    
+}
+.charts_txt ul li{
+    display: inline-block;
+    padding-right: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 130px;
+    position: relative;
+}
+
+.charts_album h4{
+    font-size: 15px;
+    float: left;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+/*  */
+.charts_album{
+    margin: 20px 0;
+
+}
+.n h4{padding-top: 12px;}
+.w{
+    display: flex;
+    align-items: center;
+}
+.img{
+    margin-right: 20px;
+}
+.type{
+    box-sizing: border-box;
+    font-size: 17px;
+    font-weight: 600;
+}
+.arti a{
+    box-sizing: border-box;
+    font-size: 13px;
+    color: #8f8f8f;
+}
+.n .btn{
+    position: absolute;
+    left: 26px;
+    top: 15px;
+    border: 0;
+    background: transparent;
+    opacity: 0;
+}
+.charts_album:hover{
+    background-color: #e9e9e9;
+}
+.charts_album .btn:hover{
+    opacity: 1;
+}
+.text{
+   width: 270px;
+}
+.txt2{
+    font-weight: 500;
+    font-size: 15PX;
+}
+.n{
+    position: relative;
+}
+.wrap{
+    width: 60%;
+}
+#new{
+    width: 40%;
+    height: 1000px;
+    float: right;
+}
+.new_inner{
+    margin: auto;
+    position: relative;
+}
+.new_inner h3{
+    text-align: center;
+    font-size: 40px;
+    font-family: "Noto Sans KR";
+}
+.a1{
+    display: inline-block;
+    margin: 42px;
+}
+.more{
+    text-align: center;
+    font-weight: 700;
+    text-decoration: solid #d97777;
+}
+
+/* 콘텐츠1 */
+#contents1{
+    background-color: #2c3238;
+}
+
+.contents1_inner{
+    width: 1320px;
+    height: 510px;
+    margin: auto;
+}
+.contents1_inner h1{
+    font-size: 40px;
+    color: #fbfbfb;
+    width: 470px;
+    text-align: center;
+    padding-top: 50px;
+}
+.cont1{
+    background-color: #d3c9e8;
+    padding: 45px 35px;
+    display: inline-block;
+    position: relative;
+    border-radius: 20px;
+    margin: 32px;
+}
+.cont1 h2{
+    padding-bottom: 35px;
+    color: #ffffff;
+    line-height: 28px;
+}
+.btn{
+    position: absolute;
+    right: 30px;
+    top: 50px;
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+.btn:hover{
+    background-color: #fbfbfb;
+    
+}
+
+.btn img{
+    position: absolute;
+    left: 14px;
+    top: 12px;
+}
+.cont1 .w{
+    margin-top: 10px;
+}
+.cont1 .w .arti a{
+    color: #fff;
+}
+.cont1 p:nth-child(3){
+    color: #fbfbfb;
+}
+/* 스테이션 */
+#station{
+    background-color: #fbfbfb;
+}
+.station_inner{
+    width: 1320px;
+    height: 600px;
+    margin: auto;
+}
+.station_title{
+    text-align: center;
+    padding-top: 50px;
+}
+.station_title h3{
+    font-size: 40px;
+    color: #333;
+    text-align: center;
+}
+.station_title p{
+    padding: 20px; 
+}
+
+/*  */
+#play{
+    background: url(../sub/images2/play_bg.png) no-repeat left 200px center #2c3238;
+}
+.play_inner{
+   
+    width: 1320px;
+    height: 355px;
+    margin: auto;
+   
+}
+.play_inner li{
+    float: left;
+    margin: 65px 0 0 40px;
+}
+.play_inner li:nth-child(4){
+    padding-right: 0;
+}
+
+.play_nav{
+    text-align: center;
+}
+span{
+    font-size: 14px;
+    color: #86868b;
+    font-family: "Noto Sans KR";
+}
+/* 호버 */
+ .play_nav ul li{
+    position: relative;
+}
+.ab .aimg img{
+    width: 220px;
+    height: 220px;
+}
+.btn_play p{
+    position: absolute;
+    top: 175px;
+    left: 5px;
+    background-color: rgba(37, 37, 37, 0.781);
+    border-radius: 50px;
+    padding: 5px;
+    margin: 8px;
+    width: 23px;
+    height: 23px;
+    opacity: 0;
+}
+.btn_play img{
+    position: absolute;
+    left: 12px;
+    top: 9px;
+
+}
+.btn_play p:hover{
+    background-color: #d97777;
+}
+.ab:hover .btn_play p{
+    opacity: 1;
+    transform: translateY(-5px);
+}
+
+/*  */
+#g{
+    background-color: #fbfbfb;
+}
+.g_inner{
+    width: 1320px;
+    margin: auto;
+    height: 400px;
+}
+.g_inner h3{
+    font-size: 40px;
+    padding-top: 50px;
+}
+.g_list{
+    margin: 100px;
+}
+.g_list ul li{
+    display: inline-block;
+    text-align: center;
+    width: 15.6%;
+    
+}
+.g_list ul li:hover{
+    transform: scale(2, 2);
+}
+/* footer */
+#footer{
+    background-color: #f9f9f9;
+}
+.footer_inner{
+    width: 1320px;
+    height: 200px;
+    margin: auto;
+    padding-top: 50px;
+    font-family: 'ONE 모바일고딕';
+}
+.footer_logo{
+    float: left;
+    padding-right: 57px;
+}
+.footer_inner li{
+    float: left;
+}
+.footer_inner li a{
+    padding-right: 40px;
+    font-size: 14px;
+}
+.footer_inner p{
+    color: #161d2e;
+    font-size: 13px;
+    clear: both;
+    padding-left: 130px;
+}
+.f_link{
+    float: left;
+}
+.f_link li{
+    float: left;
+   padding: 10px 10px 30px 0;
+}
+.f_link li a{
+    color: #161d2e;
+    font-weight: bold;
+}
+
+.sns{
+    float: right;
+}
+.sns li{
+    float: left;
+    padding-left: 10px;
+    opacity: 0.7;
+}
+.sns li:hover{
+    opacity: 1;
+}

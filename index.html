@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="1320">
+    <title>ONCE</title>
+
+    <!-- 구글폰트 연결 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- 꾸미는 css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet" href="css/swiper-bundle.min.css" />
+
+
+</head>
+<body>
+    <!-- 헤더 -->
+    <div id="header">
+        <div class="header_inner">
+            <a href="#" class="logo">
+                <img src="images/logo.png" alt="로고">
+            </a>
+            <ul class="nav">
+                <li><a href="sub1_index.html">MUSIC</a></li>
+                <li><a href="sub2_index.html">AUDIO BOOK</a></li>
+                <li><a href="sub3_index.html">COMMUNITY</a></li>
+                <li><a href="sub4_index.html">MEMBERSHIP</a></li>
+            </ul>
+			<ul class="sitemap">
+				<li><a href="#"><img src="images/search.png" alt=""></a></li>
+                <li><a href="#"><img src="sub/images2/user.png" alt=""></a></li>
+				<li><a href="#"><img src="images/sitemap.png" alt=""></a></li>
+
+			</ul>
+        </div>
+    </div>
+
+    <!-- 메인배너 -->
+    <div id="banner">
+        <div class="banner_inner">
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="banner_text">
+                            <h1>'TOMBOY'</h1>
+                            <h2>빌보드 케이팝 100 차트 첫 정상 등극</h2>
+                            <p>절대로 죽지 않을 것이라면서 패기롭게 첫 번째 정규 앨범<br> 발표한 (여자)아이들의 &lt;I NEVER DIE> </p>
+                        </div>
+                        <div class="banner_img">
+                        <a href="#"><img src="images/News.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="banner_text">
+                            <h1>국힙원탑, 박재범 X 아이유</h1>
+                            
+                            <p>한국 대중음악 신에서 정상에 있는 두 뮤지션 콜라보 <br>
+								“GANADARA”  음원 공개</p>
+                        </div>
+                        <div class="banner_img">
+                        <a href="#"><img src="images/news2.png" alt=""></a>
+                        </div>
+                    </div>
+					<div class="swiper-slide">
+                        <div class="banner_text">
+                            <h1>Lil Durk의 '7220', 빌보드 200 앨범 차트 1위 복귀</h1>
+                        </div>
+                        <div class="banner_img">
+                        <a href="#"><img src="images/Lil Durk.png" alt=""></a>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <div>
+                
+            </div>
+        </div>
+    </div>
+
+
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 0,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+  <!-- 전체박스 -->
+    <div id="wrap">
+  <!-- New Music -->
+   <div id="contents1">
+       <div class="contents1_inner">
+           <h3>NEW MUSIC</h3>
+        <div class="more">
+            <p>
+                <a href="#">더보기<img src="images/arrow-up (1).png" alt=""></a>
+            </p>
+        </div>
+        <div class="inner">
+           <ul>
+        <li>
+        <div class="ab"> 
+           <a href="#">
+               <div class="aimg">
+               <img src="images/(G)I-DLE.png" alt="여자아이들">
+            </div>
+            
+            <div class="btn_play ">
+                <p><img src="images/playbtn.png" alt=""></p>
+            </div>
+        </a>
+    </div>
+        <p><a href="#">TOMBOY</a></p>
+         <p><a href="#"><span>(여자)아이들</span></a></p>
+       </li>
+
+       <li>
+        <div class="ab"> 
+           <a href="#">
+            <div class="aimg">
+               <img src="images/Maren Morris.png" alt="Maren">
+            </div>
+
+               <div class="btn_play">
+                <p><img src="images/playbtn.png" alt=""></p>
+            </div>
+            </a>
+        </div>
+           <p><a href="#">Humble Quest</a></p>
+           <p><a href="#"><span>Maren Morris</span></a></p>
+       </li>
+       <li>
+        <div class="ab"> 
+           <a href="#">
+            <div class="aimg">
+               <img src="images/Feel My Rhythm .png" alt="레드벨벳">
+            </div>
+               <div class="btn_play ">
+                <p><img src="images/playbtn.png" alt=""></p>
+            </div>
+            </a>
+        </div>
+            <p><a href="#">Feel My Rhythm</a></p>
+            <p><a href="#"><span>레드벨벳</span></a></p>
+       </li>
+       <li>
+        <div class="ab"> 
+           <a href="#">
+            <div class="aimg">
+               <img src="images/Camila Cabello.png" alt="Camila Cabello">
+            </div>
+               <div class="btn_play ">
+                <p><img src="images/playbtn.png" alt=""></p>
+            </div>
+            </a>
+        </div>
+        <p><a href="#">Bam Bam (Feat. Ed Sheeran)</a></p>
+        <p><a href="#"><span>Camila Cabello</span></a></p>
+       </li>
+       <li>
+        <div class="ab"> 
+           <a href="#">
+            <div class="aimg">
+               <img src="images/highlight.png" alt="하이라이트">
+            </div>
+               <div class="btn_play">
+                <p><img src="images/playbtn.png" alt=""></p>
+            </div>
+            </a>
+        </div>
+        <p><a href="#">DAYDREAM</a></p>
+        <p><a href="#"><span>하이라이트</span></a></p>
+       </li>
+       <li>
+        <div class="ab"> 
+           <a href="javascript:return false;">
+            <div class="aimg">
+               <img src="images/Valencia Grace.png" alt="Valencia Grace">
+            </div>
+               <div class="btn_play">
+                <p><img src="images/playbtn.png" alt=""></p>
+            </div>
+            </a>
+        </div>
+        <p><a href="#">It Was You</a></p>
+        <p><a href="#"><span>Valencia Grace</span></a></p>
+       </li>
+       </ul>
+       </div>
+    
+       </div>
+   </div>
+   
+   <!-- 컨텐츠2 -->
+
+   <div id="contents2">
+    <div class="contents2_inner">
+        <div class="t">
+            <h3>NEW<br>MUSIC VEDIO</h3>
+        </div>
+        <div class="mv1">
+        <div class="nav2">
+            <iframe width="945" height="590" src="https://www.youtube.com/embed/AbZH7XWDW_k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="text2">
+            <h4>
+                INVU <span class="h4_T">&nbsp; 태연(TEAYEON)</span>
+            </h4>
+            <img src="images/taeyeonimg.png" alt="태연">
+            <ul class="albam">
+                <h6>[Tracklist]</h6>
+                <div class="t_inner">
+                    <li>
+                        <span>01</span>  INVU  <br>
+                        <span>02</span>  그런 밤 (Some Nights) <br>
+                        <span>03</span>  Can't Control Myself <br> 
+                        <span>04</span>  Set Myself On Fire<br>
+                        <span>05</span>  어른아이 (Toddler) 
+                    </li>
+            
+                <img src="images/INVUALBAM.png" alt="앨범">
+            </div>
+                <p class="a_t">
+					 <br> 
+                     INVU는 매번 상처받고 지칠 걸 알지만 그럼에 ‘사랑’에 마음을 아끼지 않는 ‘나’와, 그런 자신과는 너무 다른 상대방을 보며 느끼는 감정을 담아, 강렬하면서도  절절한 러브 송.
+                </p>
+            </ul>
+        
+        </div>
+    </div>
+        <div class="mv2">
+        <div class="nav3">
+            <iframe width="945" height="590" src="https://www.youtube.com/embed/H5v3kku4y6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="text3">
+            <h4>
+                As It Was &nbsp;<span class="h4_T">Harry Styles</span>
+            </h4>
+            <img src="images/harry img.png" alt="harry">
+            <ul class="albam">
+                <h6>[Tracklist]</h6>
+            <div class="t_inner">
+            <li>
+                <span>01</span>  Watermelon Sugar <br>
+                <span>02</span>  Adore You  <br>
+                <span>03</span>  Lights Up   <br>
+                <span>04</span>  Falling<br>
+                <span>05</span>  Golden 
+            </li>
+                <img src="images/harry albam.png" alt="앨범">
+            </div>
+                <p class="a_t"> <br>
+                    해리스타일스 3년 만의 새 싱글. <br>
+                    공식 뮤직비디오와  동시에 공개된 이번 싱글 
+                    ‘As lt was’ 는 5월 20일 정규 3집 앨범에 
+                    수록될  "Harry's House" 예정이다.
+                </p>
+            </ul>
+        </div>
+    </div>
+    <div class="mv3">
+        <div class="nav4">
+            <iframe width="945" height="590" src="https://www.youtube.com/embed/l2AYvD4KVWc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="text4">
+            <h4>
+                Real Love &nbsp;<span class="h4_T">오마이걸(OH MY GIRL)</span>
+            </h4>
+            <img src="images/ohmygirl img.png" alt="오마이걸">
+            <ul class="albam">
+                <h6>[Tracklist]</h6>
+            <div class="t_inner">
+            <li>
+               <span>01</span>   Real Love <br>
+               <span>02</span>  Drip  <br>
+               <span>03</span> Eden  <br>
+               <span>04</span>  Replay<br>
+               <span>05</span>  Parachute <br>      
+            </li>
+                <img src="images/real love albam.png" alt="앨범">
+            </div>
+                <p class="a_t">
+                    <br>
+                    낯선 과일 향기, 붉게 물든 하늘, 소란스러운 주변, <br>
+                    모든 게 느리게 흘러가는 듯한 순간. 우연이라기엔 <br>
+                    영화 속 한 장면 같은 'Unreal' 한 상황 속 마주한 <br>'Real Love'. 
+                </p>
+            </ul>
+        </div>
+    </div>
+    <div class="mv4">
+        <div class="nav5">
+            <iframe width="945" height="590" src="https://www.youtube.com/embed/KXDjVHgeZ3A?start=26" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="text5">
+            <h4>
+                psychofreak &nbsp;<span class="h4_T">Camila Cabello</span>
+            </h4>
+            <img src="images/Camila img.png" alt="Camila Cabello">
+            <ul class="albam">
+                <h6>[Tracklist]</h6>
+                <div class="t_inner">
+                    <li>
+                        <span>01</span> Familia<br>
+                        <span>02</span> Celia <br>
+                        <span>03</span> Psychofreak <br>
+                        <span>04</span> Bam Bam <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;(feat. Ed Sheeran)						
+            </li>
+                <img src="images/familia.png" alt="앨범" >
+            </div>
+                <p class="a_t">
+					<br> 이 앨범은 카베요가 팬데믹 기간 동안 가족과 함께 느꼈던 "집단적인 기쁨"에서 영감을 받았으며 가수의 라틴 뿌리와 연결하는 것에 관한 것입니다.
+                </p>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="mv">
+    <ul>
+        <li class="btn1">
+            <a href="#contents2">
+            <img src="images/taeyeonMV1.png" alt="1">
+            <div class="hover">
+                <a href="#contents2">
+                    <img src="images/taeyeonMV.png" alt="">
+                </a>
+            </div>
+        </a></li>
+
+        <li class="btn2">
+            <a href="#contents2">
+            <img src="images/harry stylesMV1.png" alt="1">
+        <div class="hover">
+            <a href="#contents2">
+                <img src="images/harry stylesMV.png" alt="1">
+            </a>
+        </div>
+        </a></li>
+
+        <li class="btn3">
+            <a href="#contents2">
+            <img src="images/oh my girlMV1.png" alt="1">
+            <div class="hover">
+                <a href="#contents2">
+                    <img src="images/oh my girlMV.png" alt="2">
+                </a>
+            </div>
+        </a></li>
+
+        <li class="btn4">
+            <a href="#contents2">
+            <img src="images/bambamMV.png" alt="1">
+            <div class="hover">
+                <a href="#contents2">
+                    <img src="images/bambamMV1.png" alt="">
+                </a>
+            </div>
+        </a></li>
+    </ul>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+</script>
+		<script>
+			$(function(){
+						
+				$(".btn1").click(function(){
+					$(".mv1").show();
+					$(".mv2").hide();
+					$(".mv3").hide();
+					$(".mv4").hide();
+				});	
+				$(".btn2").click(function(){
+					$(".mv1").hide();
+					$(".mv2").show();
+					$(".mv3").hide();
+					$(".mv4").hide();
+				});
+				$(".btn3").click(function(){
+				    $(".mv1").hide();
+					$(".mv2").hide();
+					$(".mv3").show();
+					$(".mv4").hide();
+                });
+				$(".btn4").click(function(){
+					$(".mv1").hide();
+					$(".mv2").hide();
+					$(".mv3").hide();
+					$(".mv4").show();
+                });
+			});
+		</script>
+    </div>
+
+    <!--콘텐츠 3-->
+    <div id="contents3">
+        <div class="contents3_inner">
+            <h3>ONCE PICK 플레이리스트</h3>
+            <div class="more">
+                <a href="#">
+                    더보기<img src="images/moreicon.png" alt="">
+                </a>
+            </div>
+            <div class="playlist">
+                <div>
+                    <p class="img1">
+                        <img src="images/drive.png" alt="" >
+                    </p>
+                    <p class="hover1">
+                        <a href="#">
+                            <img src="images/drive1.png" alt="">
+                        </a>
+                    </p>
+                </div>
+                <div>
+                    <p class="img2"><img src="images/aomg.png" alt="" class="img"></p>
+                    <p class="hover2"><a href="#"><img src="images/aomg1.png" alt=""></a></p>
+                </div>
+                <div>
+                    <p class="img3"><img src="images/crush.png" alt="" class="img"></p>
+                    <p class="hover3"><a href="#"><img src="images/crush1.png" alt=""></a></p>
+                </div>
+                <div>
+                    <p class="img4"><img src="images/consolation.png" alt="" class="img"></p>
+                    <p class="hover4"><a href="#"><img src="images/consolation1.png" alt=""></a></p>
+                </div>
+                <div>
+                    <p class="img5"><img src="images/rain.png" alt="" class="img"></p>
+                    <p class="hover5"><a href="#"><img src="images/rain1.png" alt=""></a></p>
+                </div>
+                 <div>
+                    <p class="img6"><img src="images/pop.png" alt="" class="img"></p>
+                    <p class="hover6"><a href="#"><img src="images/pop1.png" alt=""></a></p>
+                </div>
+                <div>
+                    <p class="img7"><img src="images/spring.png" alt="" class="img"> </p>
+                    <p class="hover7"><a href="#"><img src="images/spring1.png" alt=""></a></p>
+                </div>
+            </div>
+            <ul>
+                <li>드라이브</li>
+                <li>트렌디함의 대표<br>
+                    국힙 레이블, AOMG</li>
+                <li>짝사랑 ing</li>
+                <li>지친하루 <br> 위로가 필요할때</li>
+                <li>비가오는날엔</li>
+                <li>도입부부터 느낌이좋아! <br>
+                    취향저격 POP</li>
+                <li>봄봄봄 봄이왔어요! </li>
+            </ul>
+        </div>
+    </div>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(function(){
+            $('.hover1').hide();
+            $(".img1").mouseenter(function(){
+                $(".hover1").fadeIn();
+                $(".img1").hide();
+            });
+            $(".hover1").mouseleave(function(){
+                $(".hover1").hide();
+                $(".img1").show();
+            });
+
+            $('.hover2').hide();
+            $(".img2").mouseenter(function(){
+                $(".hover2").fadeIn();
+                $(".img2").hide();
+            });
+            $(".hover2").mouseleave(function(){
+                $(".hover2").hide();
+                $(".img2").show();
+            });
+
+            $('.hover3').hide();
+            $(".img3").mouseenter(function(){
+                $(".hover3").fadeIn();
+                $(".img3").hide();
+            });
+            $(".hover3").mouseleave(function(){
+                $(".hover3").hide();
+                $(".img3").show();
+            });
+
+            $('.hover4').hide();
+            $(".img4").mouseenter(function(){
+                $(".hover4").fadeIn();
+                $(".img4").hide();
+            });
+            $(".hover4").mouseleave(function(){
+                $(".hover4").hide();
+                $(".img4").show();
+            });
+
+            $('.hover5').hide();
+            $(".img5").mouseenter(function(){
+                $(".hover5").fadeIn();
+                $(".img5").hide();
+            });
+            $(".hover5").mouseleave(function(){
+                $(".hover5").hide();
+                $(".img5").show();
+            });
+
+            $('.hover6').hide();
+            $(".img6").mouseenter(function(){
+                $(".hover6").fadeIn();
+                $(".img6").hide();
+            });
+            $(".hover6").mouseleave(function(){
+                $(".hover6").hide();
+                $(".img6").show();
+            });
+
+            $('.hover7').hide();
+            $(".img7").mouseenter(function(){
+                $(".hover7").fadeIn();
+                $(".img7").hide();
+            });
+            $(".hover7").mouseleave(function(){
+                $(".hover7").hide();
+                $(".img7").show();
+            });
+         });
+    </script>
+
+    <!-- 이벤트배너 -->
+    <div id="event"></div>
+
+    <!-- 콘텐츠4-->
+	<div id="contents4">
+        <div class="contents4_inner">
+			<div class="cts4_txt">
+                <h3>FOLLOWING</h3>
+                <p>당신의 아티스트를 팔로우 해보세요!</p> 
+                <a href="javascript:return false;" class="f_icon">
+                    <img src="images/icon.png" alt="">새로고침
+                </a>
+		    </div>
+
+            <div class="follow">
+			<!-- 아이유 -->
+            <div class="iu">
+				<div class="top">
+                    <div class="artistimg">
+						<img src="images/IU.png" alt="">
+						<p class="followicon">
+                            <a href="javascript:return false;">follow</a>
+                        </p>
+					</div> 
+
+					<div class="txt">
+						<h5>IU</h5>
+						 <p>
+                             follower &nbsp; <b>3,216,540</b><br>
+                             vedio &nbsp; <b>149 </b><br>
+                             post &nbsp; <b>72</b>
+						</p>
+						<p class="all">
+                            <a href="#">전체보기</a>
+                        </p>
+					</div>
+			    </div>
+
+				<div class="bottom">
+				   <div class="list1">
+			           <div class="list">
+						   <a href="#"><img src="images/sculpture.png" alt="1">
+						</a>
+					    </div>    
+					<div class="txt2">
+                        <p> 겨울잠</p>
+                        <div class="txt2_l">
+						  <p>
+                              <img src="images/play.png" alt="1">6.8K
+                            </p>
+						  <p>
+                              <img src="images/like.png" alt="2">5.9K
+                            </p>
+						  <p>
+                              <img src="images/message.png" alt="3">226
+                            </p>
+						</div>
+					</div> 
+				</div>            
+				<div class="list1">
+					<div class="list">
+						<a href="#">
+							<img src="images/LILAC.png" alt="1">
+						</a>
+					</div>
+					<div class="txt2">
+						<p> 라일락</p>
+						<div class="txt2_l">
+						<p>
+							<img src="images/play.png" alt="1">8.
+							9K
+						</p>
+						<p>
+							<img src="images/like.png" alt="2">47.4K
+						</p>
+						<p>
+							<img src="images/message.png" alt="3">502
+						</p>
+					 </div>
+			    </div>
+			</div>
+			<div class="list1">
+				<div class="list">
+					<a href="#">
+						<img src="images/Strawberry Moon.png" alt="1">
+					</a>
+				</div>
+				<div class="txt2">
+					<p> Strawberry Moon</p>
+					<div class="txt2_l">
+					<p>
+						<img src="images/play.png" alt="1">56.8K
+					</p>
+					<p>
+						<img src="images/like.png" alt="2">30.6K
+					</p>
+					<p>
+						<img src="images/message.png" alt="3">506
+					</p>
+				 </div>
+			</div>
+		</div>
+        </div>
+		</div>
+
+		<!--LAUV -->
+		<div class="iu">
+			<div class="top">
+
+				<div class="artistimg">
+					<img src="images/LAUV.png" alt="">
+					<p class="followicon">
+                        <a href="javascript:return false;">follow</a>
+                    </p>
+				</div> 
+
+				<div class="txt">
+					<h5>LAUV</h5>
+					 <p>
+                         follower &nbsp; <b>19,216,540</b> <br>
+						 vedio &nbsp; <b>150</b> <br>
+						 post &nbsp; <b>93</b>
+					</p>
+					<p class="all">
+                        <a href="#">전체보기</a>
+                    </p>
+				</div>
+			</div>
+
+			<div class="bottom">
+			   <div class="list1">
+				   <div class="list">
+					   <a href="#"><img src="images/26.png" alt="1">
+					</a>
+				</div>    
+				<div class="txt2">
+				  <p> 26</p>
+				  <div class="txt2_l">
+					  <p><img src="images/play.png" alt="1">6.8K</p>
+					  <p><img src="images/like.png" alt="2">5.9K</p>
+					  <p><img src="images/message.png" alt="3">226</p>
+					</div>
+				</div> 
+			</div>            
+			<div class="list1">
+				<div class="list">
+					<a href="#">
+						<img src="images/FAKE.png" alt="1">
+					</a>
+				</div>
+				<div class="txt2">
+					<p> FAKE</p>
+					<div class="txt2_l">
+					<p>
+						<img src="images/play.png" alt="1">8.
+						9K
+					</p>
+					<p>
+						<img src="images/like.png" alt="2">47.4K
+					</p>
+					<p>
+						<img src="images/message.png" alt="3">502
+					</p>
+				 </div>
+			</div>
+		</div>
+		<div class="list1">
+			<div class="list">
+				<a href="#">
+					<img src="images/Changes.png" alt="1">
+				</a>
+			</div>
+			<div class="txt2">
+				<p> Changes</p>
+				<div class="txt2_l">
+				<p>
+					<img src="images/play.png" alt="1">56.8K
+				</p>
+				<p>
+					<img src="images/like.png" alt="2">30.6K
+				</p>
+				<p>
+					<img src="images/message.png" alt="3">506
+				</p>
+			 </div>
+		</div>
+	</div>
+	</div>
+	</div>
+
+	<!-- ari -->
+	<div class="iu">
+		<div class="top">
+
+			<div class="artistimg">
+				<img src="images/ari.png" alt="">
+				<p class="followicon"><a href="javascript:return false;">follow</a></p>
+			</div> 
+
+			<div class="txt">
+				<h5>Ariana Grande</h5>
+				 <p>follower &nbsp; <b>54,216,540</b> <br>
+					vedio &nbsp; <b>561</b> <br>
+					post &nbsp; <b>72</b>
+				</p>
+				<p class="all"><a href="#">전체보기</a></p>
+			</div>
+		</div>
+
+		<div class="bottom">
+		   <div class="list1">
+			   <div class="list">
+				   <a href="#"><img src="images/34+35.png" alt="1">
+				</a>
+			    </div>    
+			<div class="txt2">
+			  <p> 34+35</p>
+			  <div class="txt2_l">
+				  <p><img src="images/play.png" alt="1">6.8K</p>
+				  <p><img src="images/like.png" alt="2">5.9K</p>
+				  <p><img src="images/message.png" alt="3">226</p>
+				</div>
+			</div> 
+		</div>            
+		<div class="list1">
+			<div class="list">
+				<a href="#">
+					<img src="images/Stuck with U.png" alt="1">
+				</a>
+			</div>
+			<div class="txt2">
+				<p>Stuck with U</p>
+				<div class="txt2_l">
+				<p>
+					<img src="images/play.png" alt="1">8.
+					9K
+				</p>
+				<p>
+					<img src="images/like.png" alt="2">47.4K
+				</p>
+				<p>
+					<img src="images/message.png" alt="3">502
+				</p>
+			 </div>
+		</div>
+	</div>
+	<div class="list1">
+		<div class="list">
+			<a href="#">
+				<img src="images/thank u, next.png" alt="1">
+			</a>
+		</div>
+		<div class="txt2">
+			<p> thank u, next</p>
+			<div class="txt2_l">
+			<p>
+				<img src="images/play.png" alt="1">56.8K
+			</p>
+			<p>
+				<img src="images/like.png" alt="2">30.6K
+			</p>
+			<p>
+				<img src="images/message.png" alt="3">506
+			</p>
+		 </div>
+	</div>
+</div>
+</div>
+</div>
+	
+	     </div>
+    </div> 
+</div>
+
+	<!-- footer -->
+	<div id="footer">
+        <div class="footer_inner">
+
+            <a href="#">
+                <img src="images/footer_logo.png" alt="" class="footer_logo">
+			</a>
+
+            <ul class="f_link">
+                <li><a href="#">회사소개</a></li>
+                <li><a href="#">이용약관</a></li>
+                <li><a href="#">개인정보처리방침</a></li>
+                <li><a href="#">청소년 보호정책</a></li>
+            </ul>
+			<ul class="sns">
+				<li><a href="https://www.instagram.com/"><img src="images/instar.png" alt=""></a></li>
+				<li><a href="https://www.facebook.com/"><img src="images/facebook.png" alt=""></a></li>
+				<li><a href="https://twitter.com/i/flow/login"><img src="images/twiter.png" alt=""></a></li>
+				<li><a href="https://www.youtube.com/"><img src="images/youtube.png" alt=""></a></li>
+			</ul>
+            <p>주소 : 48942  부산광역시 중구 중앙대로 다원중앙타워 TEL : 051 123 4567 FAX : 051 123 4567</p>
+            <p>E-MAIL : once @ naver.com</p>
+            <p>Copyright  ⓒ 2022 ONCE MUSIC  All rights reserved.</p>
+        </div>
+    </div> 
+    </div>
+
+    <!-- 고정버튼 -->
+    <ul class="btn">
+        <li><a href="#"><img src="images/store1.png" alt="애플스토어"></a></li>
+        <li><a href="#"><img src="images/store2.png" alt="구글스토어"></a></li>
+    </ul>
+</body>
+</html>
